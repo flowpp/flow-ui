@@ -1,0 +1,36 @@
+{
+  "name": "flowpp-ui",
+  "version": "1.0.0",
+  "description": "flowpp, flow-ui",
+  "main": "output/index.js",
+  "scripts": {
+    "tsc": "tsc -p ./tsconfig.serve.json",
+    "start": "npm run tsc && f2e start",
+    "build": "f2e build",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowpp/flow-ui.git"
+  },
+  "author": "shy2850",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowpp/flow-ui/issues"
+  },
+  "homepage": "https://github.com/flowpp/flow-ui#readme",
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "f2e-middle-typescript": "^0.3.3",
+    "f2e-serve": "^0.1.0",
+    "f2e-server": "^2.8.0",
+    "immutable": "^3.8.2",
+    "less": "^2.7.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "requirejs": "^2.3.5",
+    "typescript": "^2.6.2"
+  }
+}
